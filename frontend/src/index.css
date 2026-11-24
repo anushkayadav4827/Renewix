@@ -1,0 +1,50 @@
+@import './styles/renewix-motion.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #17251D;
+    background-color: #FFF3E5;
+    overflow-x: hidden;
+  }
+  ::selection {
+    background-color: rgba(249, 196, 155, 0.45);
+    color: #103D29;
+  }
+}
+
+/* Custom smooth transitions & animations */
+.transition-smooth {
+  transition: all 250ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Editorial Glass & Border styles */
+.renewix-glass-dark {
+  background: rgba(16, 61, 41, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.renewix-glass-light {
+  background: rgba(255, 243, 229, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(16, 61, 41, 0.08);
+}
+
+/* Hide scrollbars for clean carousels while keeping scrollable */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

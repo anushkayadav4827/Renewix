@@ -1,0 +1,1442 @@
+[
+  {
+    "PK": "PROVIDER#p001",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#laptop",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p001",
+    "isMockData": false,
+    "name": "QuickFix Laptop Care",
+    "city": "Bengaluru",
+    "rating": 4.8,
+    "categories": [
+      "laptop"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 1000",
+    "phone": "+91 80 4123 1000",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p002",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#laptop",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p002",
+    "isMockData": false,
+    "name": "Koramangala Chipset & Board Lab",
+    "city": "Bengaluru",
+    "rating": 4.6,
+    "categories": [
+      "laptop"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 1037",
+    "phone": "+91 80 4123 1037",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Specialist Repair & Screen Hub",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p003",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#laptop",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p003",
+    "isMockData": false,
+    "name": "Nehru Place Express Laptop Solutions",
+    "city": "Delhi",
+    "rating": 4.7,
+    "categories": [
+      "laptop"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 1074",
+    "phone": "+91 11 2341 1074",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Specialist Repair & Screen Hub",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p004",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#laptop",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p004",
+    "isMockData": false,
+    "name": "Lamington Tech Laptop Doctors",
+    "city": "Mumbai",
+    "rating": 4.5,
+    "categories": [
+      "laptop"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 1111",
+    "phone": "+91 22 2642 1111",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Specialist Repair & Screen Hub",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p005",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#laptop",
+    "GSI1SK": "CITY#Hyderabad",
+    "providerId": "p005",
+    "isMockData": false,
+    "name": "Hitec City Laptop Diagnostics",
+    "city": "Hyderabad",
+    "rating": 4.4,
+    "categories": [
+      "laptop"
+    ],
+    "contact": "Road No. 36, Jubilee Hills, Near Peddamma Temple Metro, Hyderabad 500033 | 📞 +91 40 2355 1148",
+    "phone": "+91 40 2355 1148",
+    "address": "Road No. 36, Jubilee Hills, Near Peddamma Temple Metro, Hyderabad 500033",
+    "type": "Specialist Repair & Screen Hub",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p006",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#smartphone",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p006",
+    "isMockData": false,
+    "name": "Indiranagar Mobile Glass & Screen Hub",
+    "city": "Bengaluru",
+    "rating": 4.7,
+    "categories": [
+      "smartphone"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 1185",
+    "phone": "+91 80 4123 1185",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Specialist Repair & Screen Hub",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p007",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#smartphone",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p007",
+    "isMockData": false,
+    "name": "BatteryRevive Mobile Service",
+    "city": "Bengaluru",
+    "rating": 4.4,
+    "categories": [
+      "smartphone"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 1222",
+    "phone": "+91 80 4123 1222",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Specialist Repair & Screen Hub",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p008",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#smartphone",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p008",
+    "isMockData": false,
+    "name": "Connaught Place Smart Care",
+    "city": "Delhi",
+    "rating": 4.6,
+    "categories": [
+      "smartphone"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 1259",
+    "phone": "+91 11 2341 1259",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p009",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#smartphone",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p009",
+    "isMockData": false,
+    "name": "Bandra Phone Clinic",
+    "city": "Mumbai",
+    "rating": 4.8,
+    "categories": [
+      "smartphone"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 1296",
+    "phone": "+91 22 2642 1296",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Specialist Repair & Screen Hub",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p010",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#smartphone",
+    "GSI1SK": "CITY#Pune",
+    "providerId": "p010",
+    "isMockData": false,
+    "name": "Deccan Mobile Rescue",
+    "city": "Pune",
+    "rating": 4.5,
+    "categories": [
+      "smartphone"
+    ],
+    "contact": "FC Road, Deccan Gymkhana, Opposite Ferguson College Main Gate, Pune 411004 | 📞 +91 20 2553 1333",
+    "phone": "+91 20 2553 1333",
+    "address": "FC Road, Deccan Gymkhana, Opposite Ferguson College Main Gate, Pune 411004",
+    "type": "Specialist Repair & Screen Hub",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p011",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#headphones",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p011",
+    "isMockData": false,
+    "name": "Audiophile Headphone Spa & Recable",
+    "city": "Bengaluru",
+    "rating": 4.9,
+    "categories": [
+      "headphones"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 1370",
+    "phone": "+91 80 4123 1370",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Specialist Repair & Screen Hub",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p012",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#headphones",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p012",
+    "isMockData": false,
+    "name": "SoundCraft Earphone & TWS Repairs",
+    "city": "Delhi",
+    "rating": 4.6,
+    "categories": [
+      "headphones"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 1407",
+    "phone": "+91 11 2341 1407",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Specialist Repair & Screen Hub",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p013",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#headphones",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p013",
+    "isMockData": false,
+    "name": "Sonic Waves Headset Workshop",
+    "city": "Mumbai",
+    "rating": 4.5,
+    "categories": [
+      "headphones"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 1444",
+    "phone": "+91 22 2642 1444",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Specialist Repair & Screen Hub",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p014",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#headphones",
+    "GSI1SK": "CITY#Hyderabad",
+    "providerId": "p014",
+    "isMockData": false,
+    "name": "Precision Audio & Battery Fix",
+    "city": "Hyderabad",
+    "rating": 4.7,
+    "categories": [
+      "headphones"
+    ],
+    "contact": "Road No. 36, Jubilee Hills, Near Peddamma Temple Metro, Hyderabad 500033 | 📞 +91 40 2355 1481",
+    "phone": "+91 40 2355 1481",
+    "address": "Road No. 36, Jubilee Hills, Near Peddamma Temple Metro, Hyderabad 500033",
+    "type": "Specialist Repair & Screen Hub",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p015",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#headphones",
+    "GSI1SK": "CITY#Pune",
+    "providerId": "p015",
+    "isMockData": false,
+    "name": "Kothrud Headphone Restorations",
+    "city": "Pune",
+    "rating": 4.4,
+    "categories": [
+      "headphones"
+    ],
+    "contact": "FC Road, Deccan Gymkhana, Opposite Ferguson College Main Gate, Pune 411004 | 📞 +91 20 2553 1518",
+    "phone": "+91 20 2553 1518",
+    "address": "FC Road, Deccan Gymkhana, Opposite Ferguson College Main Gate, Pune 411004",
+    "type": "Specialist Repair & Screen Hub",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p101",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#television",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p101",
+    "isMockData": false,
+    "name": "Bengaluru Television Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.6,
+    "categories": [
+      "television"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 1555",
+    "phone": "+91 80 4123 1555",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p102",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#television",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p102",
+    "isMockData": false,
+    "name": "Delhi Television Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.6,
+    "categories": [
+      "television"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 1592",
+    "phone": "+91 11 2341 1592",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p103",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#television",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p103",
+    "isMockData": false,
+    "name": "Mumbai Television Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.6,
+    "categories": [
+      "television"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 1629",
+    "phone": "+91 22 2642 1629",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p104",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#washing_machine",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p104",
+    "isMockData": false,
+    "name": "Bengaluru Washing Machine Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.5,
+    "categories": [
+      "washing_machine"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 1666",
+    "phone": "+91 80 4123 1666",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p105",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#washing_machine",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p105",
+    "isMockData": false,
+    "name": "Delhi Washing Machine Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.7,
+    "categories": [
+      "washing_machine"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 1703",
+    "phone": "+91 11 2341 1703",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p106",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#washing_machine",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p106",
+    "isMockData": false,
+    "name": "Mumbai Washing Machine Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.4,
+    "categories": [
+      "washing_machine"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 1740",
+    "phone": "+91 22 2642 1740",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p107",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#refrigerator",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p107",
+    "isMockData": false,
+    "name": "Bengaluru Refrigerator Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.9,
+    "categories": [
+      "refrigerator"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 1777",
+    "phone": "+91 80 4123 1777",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p108",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#refrigerator",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p108",
+    "isMockData": false,
+    "name": "Delhi Refrigerator Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.5,
+    "categories": [
+      "refrigerator"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 1814",
+    "phone": "+91 11 2341 1814",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p109",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#refrigerator",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p109",
+    "isMockData": false,
+    "name": "Mumbai Refrigerator Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.6,
+    "categories": [
+      "refrigerator"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 1851",
+    "phone": "+91 22 2642 1851",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p110",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#air_conditioner",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p110",
+    "isMockData": false,
+    "name": "Bengaluru Air Conditioner Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.8,
+    "categories": [
+      "air_conditioner"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 1888",
+    "phone": "+91 80 4123 1888",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p111",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#air_conditioner",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p111",
+    "isMockData": false,
+    "name": "Delhi Air Conditioner Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.5,
+    "categories": [
+      "air_conditioner"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 1925",
+    "phone": "+91 11 2341 1925",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p112",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#air_conditioner",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p112",
+    "isMockData": false,
+    "name": "Mumbai Air Conditioner Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.9,
+    "categories": [
+      "air_conditioner"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 1962",
+    "phone": "+91 22 2642 1962",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p113",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#router",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p113",
+    "isMockData": false,
+    "name": "Bengaluru Router / WiFi Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.6,
+    "categories": [
+      "router"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 1999",
+    "phone": "+91 80 4123 1999",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p114",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#router",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p114",
+    "isMockData": false,
+    "name": "Delhi Router / WiFi Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.5,
+    "categories": [
+      "router"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 2036",
+    "phone": "+91 11 2341 2036",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p115",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#router",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p115",
+    "isMockData": false,
+    "name": "Mumbai Router / WiFi Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.8,
+    "categories": [
+      "router"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 2073",
+    "phone": "+91 22 2642 2073",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p116",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#printer",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p116",
+    "isMockData": false,
+    "name": "Bengaluru Printer Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.6,
+    "categories": [
+      "printer"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 2110",
+    "phone": "+91 80 4123 2110",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p117",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#printer",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p117",
+    "isMockData": false,
+    "name": "Delhi Printer Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.5,
+    "categories": [
+      "printer"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 2147",
+    "phone": "+91 11 2341 2147",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p118",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#printer",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p118",
+    "isMockData": false,
+    "name": "Mumbai Printer Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.7,
+    "categories": [
+      "printer"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 2184",
+    "phone": "+91 22 2642 2184",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p119",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#mixer_blender",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p119",
+    "isMockData": false,
+    "name": "Bengaluru Mixer / Blender Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.7,
+    "categories": [
+      "mixer_blender"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 2221",
+    "phone": "+91 80 4123 2221",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p120",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#mixer_blender",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p120",
+    "isMockData": false,
+    "name": "Delhi Mixer / Blender Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.6,
+    "categories": [
+      "mixer_blender"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 2258",
+    "phone": "+91 11 2341 2258",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p121",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#mixer_blender",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p121",
+    "isMockData": false,
+    "name": "Mumbai Mixer / Blender Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.9,
+    "categories": [
+      "mixer_blender"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 2295",
+    "phone": "+91 22 2642 2295",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p122",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#electric_kettle",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p122",
+    "isMockData": false,
+    "name": "Bengaluru Electric Kettle Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.9,
+    "categories": [
+      "electric_kettle"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 2332",
+    "phone": "+91 80 4123 2332",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p123",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#electric_kettle",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p123",
+    "isMockData": false,
+    "name": "Delhi Electric Kettle Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.8,
+    "categories": [
+      "electric_kettle"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 2369",
+    "phone": "+91 11 2341 2369",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p124",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#electric_kettle",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p124",
+    "isMockData": false,
+    "name": "Mumbai Electric Kettle Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.7,
+    "categories": [
+      "electric_kettle"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 2406",
+    "phone": "+91 22 2642 2406",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p125",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#gaming_console",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p125",
+    "isMockData": false,
+    "name": "Bengaluru Gaming Console Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.8,
+    "categories": [
+      "gaming_console"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 2443",
+    "phone": "+91 80 4123 2443",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p126",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#gaming_console",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p126",
+    "isMockData": false,
+    "name": "Delhi Gaming Console Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.9,
+    "categories": [
+      "gaming_console"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 2480",
+    "phone": "+91 11 2341 2480",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p127",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#gaming_console",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p127",
+    "isMockData": false,
+    "name": "Mumbai Gaming Console Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.7,
+    "categories": [
+      "gaming_console"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 2517",
+    "phone": "+91 22 2642 2517",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p128",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#power_bank",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p128",
+    "isMockData": false,
+    "name": "Bengaluru Power Bank Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.6,
+    "categories": [
+      "power_bank"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 2554",
+    "phone": "+91 80 4123 2554",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p129",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#power_bank",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p129",
+    "isMockData": false,
+    "name": "Delhi Power Bank Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.8,
+    "categories": [
+      "power_bank"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 2591",
+    "phone": "+91 11 2341 2591",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p130",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#power_bank",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p130",
+    "isMockData": false,
+    "name": "Mumbai Power Bank Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.7,
+    "categories": [
+      "power_bank"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 2628",
+    "phone": "+91 22 2642 2628",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p131",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#smartwatch",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p131",
+    "isMockData": false,
+    "name": "Bengaluru Smartwatch Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.6,
+    "categories": [
+      "smartwatch"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 2665",
+    "phone": "+91 80 4123 2665",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p132",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#smartwatch",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p132",
+    "isMockData": false,
+    "name": "Delhi Smartwatch Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.4,
+    "categories": [
+      "smartwatch"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 2702",
+    "phone": "+91 11 2341 2702",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p133",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#smartwatch",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p133",
+    "isMockData": false,
+    "name": "Mumbai Smartwatch Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.7,
+    "categories": [
+      "smartwatch"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 2739",
+    "phone": "+91 22 2642 2739",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p134",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#tablet",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p134",
+    "isMockData": false,
+    "name": "Bengaluru Tablet Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.5,
+    "categories": [
+      "tablet"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 2776",
+    "phone": "+91 80 4123 2776",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p135",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#tablet",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p135",
+    "isMockData": false,
+    "name": "Delhi Tablet Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.9,
+    "categories": [
+      "tablet"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 2813",
+    "phone": "+91 11 2341 2813",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p136",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#tablet",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p136",
+    "isMockData": false,
+    "name": "Mumbai Tablet Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.6,
+    "categories": [
+      "tablet"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 2850",
+    "phone": "+91 22 2642 2850",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p137",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#microwave",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p137",
+    "isMockData": false,
+    "name": "Bengaluru Microwave Oven Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.9,
+    "categories": [
+      "microwave"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 2887",
+    "phone": "+91 80 4123 2887",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p138",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#microwave",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p138",
+    "isMockData": false,
+    "name": "Delhi Microwave Oven Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.9,
+    "categories": [
+      "microwave"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 2924",
+    "phone": "+91 11 2341 2924",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p139",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#microwave",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p139",
+    "isMockData": false,
+    "name": "Mumbai Microwave Oven Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.4,
+    "categories": [
+      "microwave"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 2961",
+    "phone": "+91 22 2642 2961",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p140",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#camera",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p140",
+    "isMockData": false,
+    "name": "Bengaluru Digital Camera Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.8,
+    "categories": [
+      "camera"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 2998",
+    "phone": "+91 80 4123 2998",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p141",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#camera",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p141",
+    "isMockData": false,
+    "name": "Delhi Digital Camera Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.6,
+    "categories": [
+      "camera"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 3035",
+    "phone": "+91 11 2341 3035",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p142",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#camera",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p142",
+    "isMockData": false,
+    "name": "Mumbai Digital Camera Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.4,
+    "categories": [
+      "camera"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 3072",
+    "phone": "+91 22 2642 3072",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p143",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#speaker",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p143",
+    "isMockData": false,
+    "name": "Bengaluru Bluetooth Speaker Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.5,
+    "categories": [
+      "speaker"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 3109",
+    "phone": "+91 80 4123 3109",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p144",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#speaker",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p144",
+    "isMockData": false,
+    "name": "Delhi Bluetooth Speaker Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.6,
+    "categories": [
+      "speaker"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 3146",
+    "phone": "+91 11 2341 3146",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p145",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#speaker",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p145",
+    "isMockData": false,
+    "name": "Mumbai Bluetooth Speaker Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.4,
+    "categories": [
+      "speaker"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 3183",
+    "phone": "+91 22 2642 3183",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p146",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#desktop_pc",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p146",
+    "isMockData": false,
+    "name": "Bengaluru Desktop PC Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.5,
+    "categories": [
+      "desktop_pc"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 3220",
+    "phone": "+91 80 4123 3220",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p147",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#desktop_pc",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p147",
+    "isMockData": false,
+    "name": "Delhi Desktop PC Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.4,
+    "categories": [
+      "desktop_pc"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 3257",
+    "phone": "+91 11 2341 3257",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p148",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#desktop_pc",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p148",
+    "isMockData": false,
+    "name": "Mumbai Desktop PC Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.5,
+    "categories": [
+      "desktop_pc"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 3294",
+    "phone": "+91 22 2642 3294",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p149",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#vacuum_cleaner",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p149",
+    "isMockData": false,
+    "name": "Bengaluru Vacuum Cleaner Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.7,
+    "categories": [
+      "vacuum_cleaner"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 3331",
+    "phone": "+91 80 4123 3331",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p150",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#vacuum_cleaner",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p150",
+    "isMockData": false,
+    "name": "Delhi Vacuum Cleaner Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.8,
+    "categories": [
+      "vacuum_cleaner"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 3368",
+    "phone": "+91 11 2341 3368",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p151",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#vacuum_cleaner",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p151",
+    "isMockData": false,
+    "name": "Mumbai Vacuum Cleaner Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.6,
+    "categories": [
+      "vacuum_cleaner"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 3405",
+    "phone": "+91 22 2642 3405",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p152",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#water_purifier",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p152",
+    "isMockData": false,
+    "name": "Bengaluru Water Purifier (RO) Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.6,
+    "categories": [
+      "water_purifier"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 3442",
+    "phone": "+91 80 4123 3442",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p153",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#water_purifier",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p153",
+    "isMockData": false,
+    "name": "Delhi Water Purifier (RO) Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.7,
+    "categories": [
+      "water_purifier"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 3479",
+    "phone": "+91 11 2341 3479",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p154",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#water_purifier",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p154",
+    "isMockData": false,
+    "name": "Mumbai Water Purifier (RO) Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.7,
+    "categories": [
+      "water_purifier"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 3516",
+    "phone": "+91 22 2642 3516",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p155",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#other_device",
+    "GSI1SK": "CITY#Bengaluru",
+    "providerId": "p155",
+    "isMockData": false,
+    "name": "Bengaluru Other Device Care & Repair Center",
+    "city": "Bengaluru",
+    "rating": 4.6,
+    "categories": [
+      "other_device"
+    ],
+    "contact": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038 | 📞 +91 80 4123 3553",
+    "phone": "+91 80 4123 3553",
+    "address": "100 Feet Road, Indiranagar, Near Indiranagar Metro Station, Bengaluru 560038",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p156",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#other_device",
+    "GSI1SK": "CITY#Delhi",
+    "providerId": "p156",
+    "isMockData": false,
+    "name": "Delhi Other Device Care & Repair Center",
+    "city": "Delhi",
+    "rating": 4.7,
+    "categories": [
+      "other_device"
+    ],
+    "contact": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001 | 📞 +91 11 2341 3590",
+    "phone": "+91 11 2341 3590",
+    "address": "Block E, Inner Circle, Connaught Place, Near Rajiv Chowk Metro Gate 5, New Delhi 110001",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  },
+  {
+    "PK": "PROVIDER#p157",
+    "SK": "METADATA",
+    "GSI1PK": "PROVIDERCAT#other_device",
+    "GSI1SK": "CITY#Mumbai",
+    "providerId": "p157",
+    "isMockData": false,
+    "name": "Mumbai Other Device Care & Repair Center",
+    "city": "Mumbai",
+    "rating": 4.7,
+    "categories": [
+      "other_device"
+    ],
+    "contact": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050 | 📞 +91 22 2642 3627",
+    "phone": "+91 22 2642 3627",
+    "address": "Hill Road, Near Mehboob Studio, Bandra West, Bandra West, Mumbai 400050",
+    "type": "Authorized Service Partner",
+    "timing": "10:00 AM - 8:30 PM (Mon-Sat)",
+    "verified": true
+  }
+]

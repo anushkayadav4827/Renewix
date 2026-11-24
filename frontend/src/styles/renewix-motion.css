@@ -1,0 +1,473 @@
+:root {
+  --gutter: clamp(14px, 2vw, 40px);        /* card side margin */
+  --inset:  clamp(20px, 4.5vw, 96px);      /* hero text / nav inset */
+  --sec-y:  clamp(40px, 4.5vw, 88px);      /* section vertical padding */
+  --gap:    clamp(14px, 1.6vw, 28px);      /* gaps inside grids */
+
+  --forest-950: #0a2a1d;
+  --forest-900: #0f3b28;
+  --forest-800: #14482f;
+  --forest-700: #1f6b45;
+  --leaf: #2f8f5b;
+  --leaf-soft: #dcebd9;
+  --cream: #fdf1e4;
+  --cream-2: #f9e6d3;
+  --peach: #f8b08c;
+  --peach-deep: #f08a5d;
+  --accent: #f28b4b;
+  --gold: #f2c94c;
+  --ink: #16301f;
+  --ink-2: #4a5f52;
+  --line: rgba(15, 59, 40, 0.1);
+  --glass: rgba(253, 241, 228, 0.62);
+  --glass-b: rgba(255, 255, 255, 0.6);
+  --r-xl: 34px;
+  --r-lg: 26px;
+  --r-md: 18px;
+  --r-pill: 999px;
+  --shadow-card: 0 24px 48px -28px rgba(10, 42, 29, 0.35);
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-io: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/* Fluid Root Typography & Proportional Clamps */
+html {
+  font-size: clamp(16px, calc(0.42vw + 11.6px), 22px);
+}
+
+/* Ergonomic Balanced Layout Container matching Reference Design (Desktop-First, No Awkward Edges) */
+.renewix-container {
+  width: 95%;
+  max-width: 1560px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(16px, 2.5vw, 40px);
+  padding-right: clamp(16px, 2.5vw, 40px);
+}
+
+/* Fluid Typography Classes - Slightly enlarged for confident screen presence */
+.text-hero-h1 {
+  font-size: clamp(38px, 3.8vw, 66px);
+  font-weight: 800;
+  line-height: 1.06;
+  letter-spacing: -0.03em;
+}
+
+.text-section-h2 {
+  font-size: clamp(28px, 2.5vw, 46px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+}
+
+.text-panel-title {
+  font-size: clamp(24px, 1.9vw, 34px);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.text-card-title {
+  font-size: clamp(18px, 1.35vw, 25px);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.text-hero-lead {
+  font-size: clamp(16px, 1.15vw, 21px);
+  line-height: 1.6;
+  max-width: 36em;
+}
+
+.text-body-card {
+  font-size: clamp(14.5px, 0.98vw, 17px);
+  line-height: 1.55;
+}
+
+.text-chip-label {
+  font-size: clamp(13px, 0.88vw, 15px);
+}
+
+.text-btn {
+  font-size: clamp(14.5px, 0.95vw, 16.5px);
+}
+
+.text-btn {
+  font-size: clamp(15px, 1.05vw, 18px);
+  font-weight: 600;
+}
+
+.text-stat-num {
+  font-size: clamp(20px, 1.7vw, 32px);
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  white-space: nowrap;
+}
+
+.text-stat-label {
+  font-size: clamp(14px, 1vw, 18px);
+}
+
+.text-nav-link {
+  font-size: clamp(14px, 0.95vw, 17px);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   REVEAL & STAGGER ANIMATION SYSTEM (Velia Spec Port)
+   Content is visible if JS is disabled; hidden states only activate when .js is present on <html>.
+   ───────────────────────────────────────────────────────────── */
+html.js .rv {
+  opacity: 0;
+  transform: translateY(28px);
+  filter: blur(8px);
+  transition: opacity 0.8s var(--ease), transform 0.8s var(--ease), filter 0.8s var(--ease);
+  transition-delay: calc(var(--base, 0ms) + var(--d, 0) * 120ms);
+  will-change: opacity, transform, filter;
+}
+
+html.js .rv.in-view {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+
+html.js .rv-scale {
+  opacity: 0;
+  transform: scale(0.88) translateY(20px);
+  filter: blur(6px);
+  transition: opacity 0.85s var(--ease), transform 0.85s var(--ease), filter 0.85s var(--ease);
+  transition-delay: calc(var(--base, 0ms) + var(--d, 0) * 120ms);
+  will-change: opacity, transform, filter;
+}
+
+html.js .rv-scale.in-view {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  filter: blur(0);
+}
+
+/* Row Slide-In */
+html.js .row {
+  opacity: 0;
+  transform: translateX(-24px);
+  transition: opacity 0.6s var(--ease), transform 0.6s var(--ease);
+  transition-delay: calc(var(--base, 0ms) + var(--d, 0) * 140ms);
+}
+
+html.js .row.in-view {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Split-Text Word Reveal */
+.split-word-wrap {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  margin-right: 0.28em;
+  padding-right: 0.16em;
+  padding-bottom: 0.08em;
+}
+
+html.js .split-word {
+  display: inline-block;
+  transform: translateY(115%);
+  opacity: 0;
+  padding-right: 0.14em;
+  margin-right: -0.14em;
+  padding-bottom: 0.08em;
+  transition: transform 0.75s var(--ease), opacity 0.75s var(--ease);
+  transition-delay: calc(var(--base, 0ms) + var(--d, 0) * 65ms);
+  will-change: transform, opacity;
+}
+
+html.js .split-word.in-view {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   CONTINUOUS & IDLE KEYFRAME ANIMATIONS
+   ───────────────────────────────────────────────────────────── */
+/* Ken Burns background subtle zoom */
+@keyframes kb {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+  100% { transform: scale(1); }
+}
+.animate-kb,
+.animate-kenburns {
+  animation: kb 22s ease-in-out infinite alternate;
+}
+
+/* Floating Device Loop */
+@keyframes floatDevice {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(1.2deg); }
+}
+@keyframes floatDeviceAlt {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(-1.5deg); }
+}
+@keyframes floatDeviceSlow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.float-device-1 {
+  animation: floatDevice 6.5s ease-in-out infinite;
+}
+.float-device-2 {
+  animation: floatDeviceAlt 7.8s ease-in-out 1.2s infinite;
+}
+.float-device-3 {
+  animation: floatDeviceSlow 6s ease-in-out 2.5s infinite;
+}
+
+/* Recycling Ring Slow 60s Rotation */
+@keyframes spinRing {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.animate-ring-slow {
+  animation: spinRing 60s linear infinite;
+}
+
+/* Foliage Sway */
+@keyframes swayLeaves {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+.animate-sway {
+  transform-origin: top left;
+  animation: swayLeaves 9s ease-in-out infinite alternate;
+}
+.animate-sway-alt {
+  transform-origin: bottom right;
+  animation: swayLeaves 10s ease-in-out 2s infinite alternate;
+}
+
+/* Bell Wiggle on Reveal */
+@keyframes bellWiggle {
+  0%, 100% { transform: rotate(0deg); }
+  20% { transform: rotate(14deg); }
+  40% { transform: rotate(-12deg); }
+  60% { transform: rotate(8deg); }
+  80% { transform: rotate(-6deg); }
+}
+.in-view .animate-bell {
+  animation: bellWiggle 1s var(--ease) 0.3s;
+}
+
+/* Sprout Grow on Reveal */
+@keyframes sproutGrow {
+  0% { transform: scale(0.68) translateY(12px); opacity: 0; }
+  100% { transform: scale(1) translateY(0); opacity: 1; }
+}
+.in-view .animate-sprout {
+  animation: sproutGrow 0.85s var(--ease) forwards;
+}
+
+/* Swoosh Underline Draw (SVG Dashoffset) */
+@keyframes swooshDraw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.swoosh-path {
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+}
+.in-view .swoosh-path {
+  animation: swooshDraw 1.2s var(--ease) 0.4s forwards;
+}
+
+/* Pulse Badge Soft Glow */
+@keyframes badgePulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(47, 143, 91, 0.4); }
+  50% { box-shadow: 0 0 24px 8px rgba(47, 143, 91, 0.25); }
+}
+.animate-badge-pulse {
+  animation: badgePulse 3.5s ease-in-out infinite;
+}
+
+/* Floating Chip */
+@keyframes chipFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+.animate-chip-float {
+  animation: chipFloat 3.8s ease-in-out infinite;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   BUTTONS WITH VELIA SHEEN SWEEPS
+   ───────────────────────────────────────────────────────────── */
+.btn-peach {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--peach);
+  color: var(--ink);
+  border-radius: var(--r-pill);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.75rem 1.75rem;
+  transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease), background-color 0.3s var(--ease);
+  box-shadow: 0 4px 14px -3px rgba(240, 138, 93, 0.35);
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn-peach::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  transform: skewX(-20deg);
+  transition: left 0.75s var(--ease);
+  pointer-events: none;
+}
+
+.btn-peach:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -4px rgba(240, 138, 93, 0.48);
+  background-color: #f7a378;
+}
+
+.btn-peach:hover::before {
+  left: 140%;
+}
+
+.btn-peach svg {
+  transition: transform 0.3s var(--ease);
+}
+
+.btn-peach:hover svg {
+  transform: translateX(4px);
+}
+
+.btn-forest {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--forest-900);
+  color: var(--cream);
+  border-radius: var(--r-pill);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0.75rem 1.75rem;
+  transition: transform 0.3s var(--ease), box-shadow 0.3s var(--ease), background-color 0.3s var(--ease);
+  box-shadow: 0 8px 20px -6px rgba(10, 42, 29, 0.3);
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn-forest::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -120%;
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transform: skewX(-20deg);
+  transition: left 0.75s var(--ease);
+  pointer-events: none;
+}
+
+.btn-forest:hover {
+  transform: translateY(-2px);
+  background-color: var(--forest-800);
+  box-shadow: 0 12px 28px -6px rgba(10, 42, 29, 0.45);
+}
+
+.btn-forest:hover::before {
+  left: 140%;
+}
+
+.btn-forest svg {
+  transition: transform 0.3s var(--ease);
+}
+
+.btn-forest:hover svg {
+  transform: translateX(4px);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: transparent;
+  color: var(--cream);
+  border: 1px solid rgba(253, 241, 228, 0.35);
+  border-radius: var(--r-pill);
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  transition: transform 0.3s var(--ease), border-color 0.3s var(--ease), background-color 0.3s var(--ease);
+  cursor: pointer;
+  user-select: none;
+  backdrop-filter: blur(8px);
+}
+
+.btn-outline:hover {
+  transform: translateY(-2px);
+  border-color: var(--cream);
+  background-color: rgba(253, 241, 228, 0.1);
+}
+
+/* Focus Visible */
+button:focus-visible, a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   CARD HOVER LIFTS & SHADOWS
+   ───────────────────────────────────────────────────────────── */
+.renewix-card {
+  border-radius: var(--r-xl);
+  border: 1px solid var(--glass-b);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.5s var(--ease), box-shadow 0.5s var(--ease);
+}
+
+.renewix-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 32px 56px -24px rgba(10, 42, 29, 0.45);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   PREFERS-REDUCED-MOTION DISCIPLINE
+   ───────────────────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  html.js .rv,
+  html.js .rv-scale,
+  html.js .row,
+  html.js .split-word {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+  }
+  .swoosh-path {
+    stroke-dashoffset: 0 !important;
+  }
+}

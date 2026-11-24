@@ -1,0 +1,1647 @@
+[
+  {
+    "PK": "DEVICE#laptop",
+    "SK": "RULE#not_charging",
+    "deviceId": "laptop",
+    "ruleId": "not_charging",
+    "symptomLabel": "Laptop not charging",
+    "questions": [
+      {
+        "id": "charging_led",
+        "text": "Does the charging LED turn on when plugged in?",
+        "type": "boolean"
+      },
+      {
+        "id": "works_on_battery",
+        "text": "Does the laptop work normally on battery power alone?",
+        "type": "boolean"
+      },
+      {
+        "id": "intermittent",
+        "text": "Does charging work intermittently when the cable is wiggled?",
+        "type": "boolean"
+      },
+      {
+        "id": "tested_other_charger",
+        "text": "Have you tested with another known working charger?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "sparks",
+      "swollen_battery",
+      "electric_shock"
+    ],
+    "possibleIssues": [
+      "charging_port",
+      "charger",
+      "battery",
+      "charging_circuit"
+    ]
+  },
+  {
+    "PK": "DEVICE#laptop",
+    "SK": "RULE#wont_turn_on",
+    "deviceId": "laptop",
+    "ruleId": "wont_turn_on",
+    "symptomLabel": "Laptop won't turn on",
+    "questions": [
+      {
+        "id": "fan_spinning",
+        "text": "Do you hear the internal fans spin or feel airflow?",
+        "type": "boolean"
+      },
+      {
+        "id": "power_led",
+        "text": "Does any power indicator light light up when pressing the power button?",
+        "type": "boolean"
+      },
+      {
+        "id": "hard_reset_tried",
+        "text": "Have you held the power button for 30 seconds to perform a hard reset?",
+        "type": "boolean"
+      },
+      {
+        "id": "display_backlight",
+        "text": "Can you see a faint backlight on the screen in a dark room?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "sparks",
+      "swollen_battery"
+    ],
+    "possibleIssues": [
+      "motherboard_fault",
+      "ram_failure",
+      "power_button",
+      "battery"
+    ]
+  },
+  {
+    "PK": "DEVICE#laptop",
+    "SK": "RULE#overheating",
+    "deviceId": "laptop",
+    "ruleId": "overheating",
+    "symptomLabel": "Laptop overheating or thermal throttling",
+    "questions": [
+      {
+        "id": "fan_loud",
+        "text": "Is the cooling fan constantly running at maximum speed or making grinding noises?",
+        "type": "boolean"
+      },
+      {
+        "id": "shuts_down_heavy_load",
+        "text": "Does the laptop shut down abruptly during games or video editing?",
+        "type": "boolean"
+      },
+      {
+        "id": "vents_clean",
+        "text": "Are the heat exhaust vents clear of visible dust?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "smoke",
+      "hot_to_touch_battery"
+    ],
+    "possibleIssues": [
+      "fan_dust_buildup",
+      "thermal_paste_degraded",
+      "fan_motor_failure"
+    ]
+  },
+  {
+    "PK": "DEVICE#laptop",
+    "SK": "RULE#screen_issue",
+    "deviceId": "laptop",
+    "ruleId": "screen_issue",
+    "symptomLabel": "Laptop screen flickering, lines, or black display",
+    "questions": [
+      {
+        "id": "external_monitor_works",
+        "text": "Does the laptop display properly when connected to an external TV or monitor?",
+        "type": "boolean"
+      },
+      {
+        "id": "flicker_on_hinge_move",
+        "text": "Does the screen glitch or change when opening or closing the lid hinge?",
+        "type": "boolean"
+      },
+      {
+        "id": "visible_crack",
+        "text": "Is there any visible crack or bleeding ink patch on the glass panel?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "sparks",
+      "smoke"
+    ],
+    "possibleIssues": [
+      "display_cable",
+      "lcd_panel",
+      "gpu_failure"
+    ]
+  },
+  {
+    "PK": "DEVICE#smartphone",
+    "SK": "RULE#screen_cracked",
+    "deviceId": "smartphone",
+    "ruleId": "screen_cracked",
+    "symptomLabel": "Cracked smartphone glass or damaged OLED/LCD",
+    "questions": [
+      {
+        "id": "touch_responsive",
+        "text": "Does the touch screen still respond accurately to your touches across the whole surface?",
+        "type": "boolean"
+      },
+      {
+        "id": "black_spots_lines",
+        "text": "Are there colored vertical lines or dark ink-like bleed spots on the screen?",
+        "type": "boolean"
+      },
+      {
+        "id": "frame_bent",
+        "text": "Is the aluminum or plastic phone frame noticeably bent?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "swollen_battery",
+      "exposed_wiring",
+      "sparks"
+    ],
+    "possibleIssues": [
+      "front_glass_only",
+      "full_display_assembly",
+      "chassis_damage"
+    ]
+  },
+  {
+    "PK": "DEVICE#smartphone",
+    "SK": "RULE#battery_drain",
+    "deviceId": "smartphone",
+    "ruleId": "battery_drain",
+    "symptomLabel": "Fast battery drain or phone shutting down early",
+    "questions": [
+      {
+        "id": "drops_suddenly",
+        "text": "Does the battery percentage jump down abruptly (e.g., from 40% to 5%)?",
+        "type": "boolean"
+      },
+      {
+        "id": "back_cover_lifting",
+        "text": "Is the back glass or screen slightly lifting up or bulging outwards?",
+        "type": "boolean"
+      },
+      {
+        "id": "warm_on_idle",
+        "text": "Does the phone feel warm even when sitting idle in your pocket?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "swollen_battery",
+      "burning_smell",
+      "extreme_heat"
+    ],
+    "possibleIssues": [
+      "battery_degradation",
+      "background_software_drain",
+      "power_management_ic"
+    ]
+  },
+  {
+    "PK": "DEVICE#smartphone",
+    "SK": "RULE#not_charging",
+    "deviceId": "smartphone",
+    "ruleId": "not_charging",
+    "symptomLabel": "Smartphone not charging or loose USB-C/Lightning cable",
+    "questions": [
+      {
+        "id": "cable_sits_flush",
+        "text": "Does the charging connector sit flush without wobbling inside the port?",
+        "type": "boolean"
+      },
+      {
+        "id": "wireless_charges",
+        "text": "If supported, does the phone charge on a wireless charging pad?",
+        "type": "boolean"
+      },
+      {
+        "id": "tried_cleaning_lint",
+        "text": "Have you inspected the charging port for compacted pocket lint?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "sparks",
+      "hot_charging_port"
+    ],
+    "possibleIssues": [
+      "port_lint_cleaning",
+      "usb_c_sub_board",
+      "charging_ic"
+    ]
+  },
+  {
+    "PK": "DEVICE#smartphone",
+    "SK": "RULE#water_damage",
+    "deviceId": "smartphone",
+    "ruleId": "water_damage",
+    "symptomLabel": "Water or liquid ingress",
+    "questions": [
+      {
+        "id": "phone_turned_off_immediately",
+        "text": "Did you immediately turn the phone off and leave it disconnected from power?",
+        "type": "boolean"
+      },
+      {
+        "id": "camera_fogged",
+        "text": "Is there visible condensation or fog inside the camera lenses?",
+        "type": "boolean"
+      },
+      {
+        "id": "speaker_muffled",
+        "text": "Are the speakers sounding crackly, muffled, or silent?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "smoke",
+      "burning_smell",
+      "hot_to_touch"
+    ],
+    "possibleIssues": [
+      "ultrasonic_cleaning_corrosion",
+      "display_water_damage",
+      "shorted_capacitors"
+    ]
+  },
+  {
+    "PK": "DEVICE#headphones",
+    "SK": "RULE#one_side_silent",
+    "deviceId": "headphones",
+    "ruleId": "one_side_silent",
+    "symptomLabel": "Headphones or earbuds silent on one side",
+    "questions": [
+      {
+        "id": "balance_checked",
+        "text": "Have you verified the audio balance slider in your device settings is centered?",
+        "type": "boolean"
+      },
+      {
+        "id": "crackles_on_wire_flex",
+        "text": "For wired models, does audio briefly cut in when bending the wire near the jack or earcup?",
+        "type": "boolean"
+      },
+      {
+        "id": "cleaned_wax_filter",
+        "text": "For in-ear earbuds, have you cleaned or inspected the mesh sound filter for wax buildup?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "exposed_wiring",
+      "sparks"
+    ],
+    "possibleIssues": [
+      "mesh_filter_clogged",
+      "headphone_jack_cable",
+      "speaker_driver_blown"
+    ]
+  },
+  {
+    "PK": "DEVICE#headphones",
+    "SK": "RULE#bluetooth_disconnect",
+    "deviceId": "headphones",
+    "ruleId": "bluetooth_disconnect",
+    "symptomLabel": "Wireless headphones disconnect or pairing fails",
+    "questions": [
+      {
+        "id": "powers_on_consistently",
+        "text": "Does the power/status LED illuminate reliably every time you power on?",
+        "type": "boolean"
+      },
+      {
+        "id": "factory_reset_done",
+        "text": "Have you performed a factory reset and cleared previous Bluetooth pairings?",
+        "type": "boolean"
+      },
+      {
+        "id": "battery_dies_quick",
+        "text": "Does the audio cut off within a few minutes of disconnecting from the charger?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "swollen_battery",
+      "burning_smell"
+    ],
+    "possibleIssues": [
+      "earbud_battery_replacement",
+      "bluetooth_antenna",
+      "firmware_corruption"
+    ]
+  },
+  {
+    "PK": "DEVICE#headphones",
+    "SK": "RULE#distorted_sound",
+    "deviceId": "headphones",
+    "ruleId": "distorted_sound",
+    "symptomLabel": "Rattling, buzzing, or distorted audio",
+    "questions": [
+      {
+        "id": "happens_low_volume",
+        "text": "Does the rattling noise happen even at moderate and low volume levels?",
+        "type": "boolean"
+      },
+      {
+        "id": "bass_heavy_only",
+        "text": "Does distortion only appear during heavy bass frequencies?",
+        "type": "boolean"
+      },
+      {
+        "id": "anc_noise",
+        "text": "If ANC is turned off, does the strange buzzing or high-pitched squeal disappear?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell"
+    ],
+    "possibleIssues": [
+      "hair_on_diaphragm",
+      "damaged_driver_cone",
+      "anc_microphone_feedback"
+    ]
+  },
+  {
+    "PK": "DEVICE#headphones",
+    "SK": "RULE#broken_hinge_cable",
+    "deviceId": "headphones",
+    "ruleId": "broken_hinge_cable",
+    "symptomLabel": "Cracked headband, broken swivel hinge, or worn ear pads",
+    "questions": [
+      {
+        "id": "wire_pinched",
+        "text": "Is the internal wire running through the hinge visibly pinched or frayed?",
+        "type": "boolean"
+      },
+      {
+        "id": "audio_still_plays",
+        "text": "Does sound still play cleanly in both ears if you hold the broken pieces together?",
+        "type": "boolean"
+      },
+      {
+        "id": "screws_missing",
+        "text": "Are there loose or missing tiny screws at the folding joint?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "exposed_frayed_wiring"
+    ],
+    "possibleIssues": [
+      "replacement_swivel_hinge",
+      "earpad_cushion_replacement",
+      "headband_frame"
+    ]
+  },
+  {
+    "PK": "DEVICE#laptop",
+    "SK": "RULE#slow_performance",
+    "deviceId": "laptop",
+    "ruleId": "slow_performance",
+    "symptomLabel": "Laptop running very slow or freezing",
+    "questions": [
+      {
+        "id": "storage_full",
+        "text": "Is your hard drive or SSD nearly full?",
+        "type": "boolean"
+      },
+      {
+        "id": "high_ram_usage",
+        "text": "Do you have many tabs or heavy apps running simultaneously?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "hdd_failing",
+      "insufficient_ram",
+      "malware_os_issue"
+    ]
+  },
+  {
+    "PK": "DEVICE#laptop",
+    "SK": "RULE#wifi_issues",
+    "deviceId": "laptop",
+    "ruleId": "wifi_issues",
+    "symptomLabel": "WiFi disconnecting or not finding networks",
+    "questions": [
+      {
+        "id": "other_devices_connect",
+        "text": "Can other devices connect to your WiFi fine?",
+        "type": "boolean"
+      },
+      {
+        "id": "airplane_mode_off",
+        "text": "Is Airplane mode turned off?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "wifi_card_failure",
+      "antenna_disconnected",
+      "driver_issue"
+    ]
+  },
+  {
+    "PK": "DEVICE#laptop",
+    "SK": "RULE#trackpad_issues",
+    "deviceId": "laptop",
+    "ruleId": "trackpad_issues",
+    "symptomLabel": "Trackpad not responding or jumping",
+    "questions": [
+      {
+        "id": "external_mouse_works",
+        "text": "Does an external USB mouse work fine?",
+        "type": "boolean"
+      },
+      {
+        "id": "trackpad_bulging",
+        "text": "Is the trackpad physically bulging upwards?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "swollen_battery"
+    ],
+    "possibleIssues": [
+      "swollen_battery",
+      "trackpad_cable_loose",
+      "trackpad_failure"
+    ]
+  },
+  {
+    "PK": "DEVICE#smartphone",
+    "SK": "RULE#camera_not_working",
+    "deviceId": "smartphone",
+    "ruleId": "camera_not_working",
+    "symptomLabel": "Camera app crashing or photos blurry",
+    "questions": [
+      {
+        "id": "lens_scratched",
+        "text": "Is the outer glass covering the camera visibly cracked or scratched?",
+        "type": "boolean"
+      },
+      {
+        "id": "app_crashes",
+        "text": "Does the camera app show a black screen or crash immediately?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "camera_module_failure",
+      "camera_lens_glass",
+      "software_glitch"
+    ]
+  },
+  {
+    "PK": "DEVICE#smartphone",
+    "SK": "RULE#buttons_unresponsive",
+    "deviceId": "smartphone",
+    "ruleId": "buttons_unresponsive",
+    "symptomLabel": "Power or volume buttons not clicking",
+    "questions": [
+      {
+        "id": "mushy_buttons",
+        "text": "Do the buttons feel 'mushy' and lack a distinct click?",
+        "type": "boolean"
+      },
+      {
+        "id": "case_removed",
+        "text": "Does the issue persist even when the phone case is removed?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "button_flex_cable",
+      "debris_in_button",
+      "chassis_dent"
+    ]
+  },
+  {
+    "PK": "DEVICE#smartphone",
+    "SK": "RULE#network_issues",
+    "deviceId": "smartphone",
+    "ruleId": "network_issues",
+    "symptomLabel": "No cellular signal or dropped calls",
+    "questions": [
+      {
+        "id": "sim_reseated",
+        "text": "Have you tried removing and reinserting the SIM card?",
+        "type": "boolean"
+      },
+      {
+        "id": "wifi_works",
+        "text": "Does the phone connect to WiFi without issues?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "sim_reader_damage",
+      "antenna_cable",
+      "baseband_ic"
+    ]
+  },
+  {
+    "PK": "DEVICE#headphones",
+    "SK": "RULE#case_not_charging",
+    "deviceId": "headphones",
+    "ruleId": "case_not_charging",
+    "symptomLabel": "Charging case won't charge or power on",
+    "questions": [
+      {
+        "id": "cable_tested",
+        "text": "Have you tested the charging cable with another device?",
+        "type": "boolean"
+      },
+      {
+        "id": "lint_in_port",
+        "text": "Is there lint or debris in the case's charging port?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "hot_to_touch"
+    ],
+    "possibleIssues": [
+      "case_battery_dead",
+      "charging_port_damaged",
+      "case_logic_board"
+    ]
+  },
+  {
+    "PK": "DEVICE#headphones",
+    "SK": "RULE#mic_not_working",
+    "deviceId": "headphones",
+    "ruleId": "mic_not_working",
+    "symptomLabel": "Microphone not picking up voice in calls",
+    "questions": [
+      {
+        "id": "muffled_voice",
+        "text": "Do callers say you sound very muffled or distant?",
+        "type": "boolean"
+      },
+      {
+        "id": "voice_memo_works",
+        "text": "Does the mic work if you record a local voice memo?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "mic_mesh_clogged",
+      "microphone_component",
+      "bluetooth_profile_issue"
+    ]
+  },
+  {
+    "PK": "DEVICE#television",
+    "SK": "RULE#screen_black_no_display",
+    "deviceId": "television",
+    "ruleId": "screen_black_no_display",
+    "symptomLabel": "TV powers on but screen is completely black or no display",
+    "questions": [
+      {
+        "id": "has_sound",
+        "text": "Can you hear audio/sound from the TV even though the screen is dark?",
+        "type": "boolean"
+      },
+      {
+        "id": "flashlight_test",
+        "text": "When shining a bright flashlight close to the dark screen, can you faintly see an image or menu?",
+        "type": "boolean"
+      },
+      {
+        "id": "power_led_blinking",
+        "text": "Is the standby power LED blinking in a repeating pattern or color code?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "sparks",
+      "popping_sound"
+    ],
+    "possibleIssues": [
+      "backlight_led_strips",
+      "power_supply_board",
+      "tcon_logic_board"
+    ]
+  },
+  {
+    "PK": "DEVICE#television",
+    "SK": "RULE#lines_on_screen",
+    "deviceId": "television",
+    "ruleId": "lines_on_screen",
+    "symptomLabel": "Horizontal or vertical colored lines appearing across the TV display",
+    "questions": [
+      {
+        "id": "lines_on_all_inputs",
+        "text": "Do the lines appear on all HDMI inputs and internal smart TV menus?",
+        "type": "boolean"
+      },
+      {
+        "id": "impact_damage",
+        "text": "Was the screen physically pressed, hit, or cleaned with liquid recently?",
+        "type": "boolean"
+      },
+      {
+        "id": "lines_flicker_when_tapped",
+        "text": "Do the lines flicker or change position when lightly pressing near the frame edge?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "tcon_logic_board",
+      "cof_bonding_cable",
+      "panel_lcd_defect"
+    ]
+  },
+  {
+    "PK": "DEVICE#television",
+    "SK": "RULE#no_sound",
+    "deviceId": "television",
+    "ruleId": "no_sound",
+    "symptomLabel": "Picture is normal but TV has no sound or distorted audio",
+    "questions": [
+      {
+        "id": "internal_speakers_only",
+        "text": "Is the sound missing from both built-in TV speakers and external audio/soundbars?",
+        "type": "boolean"
+      },
+      {
+        "id": "audio_settings_reset",
+        "text": "Have you verified that the TV audio output is set to Internal Speakers and not Optical/Bluetooth?",
+        "type": "boolean"
+      },
+      {
+        "id": "crackling_buzzing",
+        "text": "Do you hear a loud buzzing or popping noise before the audio cuts out?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "audio_amplifier_ic",
+      "internal_speaker_units",
+      "main_motherboard"
+    ]
+  },
+  {
+    "PK": "DEVICE#washing_machine",
+    "SK": "RULE#not_spinning",
+    "deviceId": "washing_machine",
+    "ruleId": "not_spinning",
+    "symptomLabel": "Washing machine fills with water but drum does not spin or agitate",
+    "questions": [
+      {
+        "id": "motor_humming",
+        "text": "Can you hear the motor humming or attempting to rotate during the spin cycle?",
+        "type": "boolean"
+      },
+      {
+        "id": "can_rotate_drum_by_hand",
+        "text": "Can you easily rotate the drum smoothly by hand when the machine is turned off?",
+        "type": "boolean"
+      },
+      {
+        "id": "drain_completed",
+        "text": "Has all the water completely drained before the spin cycle begins?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "sparks"
+    ],
+    "possibleIssues": [
+      "drive_belt_snapped",
+      "motor_carbon_brushes",
+      "motor_capacitor_failure"
+    ]
+  },
+  {
+    "PK": "DEVICE#washing_machine",
+    "SK": "RULE#leaking_water",
+    "deviceId": "washing_machine",
+    "ruleId": "leaking_water",
+    "symptomLabel": "Water puddle forming underneath or around the washing machine",
+    "questions": [
+      {
+        "id": "leak_during_fill",
+        "text": "Does water leak immediately when the machine starts filling?",
+        "type": "boolean"
+      },
+      {
+        "id": "door_gasket_torn",
+        "text": "Is the front door rubber bellow seal/gasket torn, dislodged, or mouldy?",
+        "type": "boolean"
+      },
+      {
+        "id": "leak_during_drain",
+        "text": "Does water only leak during the drain or high-speed spin cycle?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "electric_shock",
+      "exposed_wiring"
+    ],
+    "possibleIssues": [
+      "door_bellow_gasket",
+      "drain_pump_hose",
+      "inlet_solenoid_valve"
+    ]
+  },
+  {
+    "PK": "DEVICE#refrigerator",
+    "SK": "RULE#not_cooling",
+    "deviceId": "refrigerator",
+    "ruleId": "not_cooling",
+    "symptomLabel": "Refrigerator or freezer compartment is warm and not cooling",
+    "questions": [
+      {
+        "id": "compressor_running",
+        "text": "Can you hear the compressor humming or vibrating at the back bottom of the fridge?",
+        "type": "boolean"
+      },
+      {
+        "id": "clicking_sound",
+        "text": "Does the fridge make a regular clicking sound every few minutes at the back?",
+        "type": "boolean"
+      },
+      {
+        "id": "interior_light_on",
+        "text": "Are the interior lights working when opening the door?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "sparks",
+      "smoke"
+    ],
+    "possibleIssues": [
+      "compressor_relay_overload",
+      "refrigerant_gas_leak",
+      "evaporator_fan_motor"
+    ]
+  },
+  {
+    "PK": "DEVICE#refrigerator",
+    "SK": "RULE#excessive_frost_ice",
+    "deviceId": "refrigerator",
+    "ruleId": "excessive_frost_ice",
+    "symptomLabel": "Heavy ice or frost buildup covering the freezer walls and coils",
+    "questions": [
+      {
+        "id": "frost_blocks_airflow",
+        "text": "Is ice blocking the air vents between the freezer and fresh food compartment?",
+        "type": "boolean"
+      },
+      {
+        "id": "door_seal_gap",
+        "text": "Can you slide a sheet of paper easily through the magnetic door gasket when closed?",
+        "type": "boolean"
+      },
+      {
+        "id": "frost_reappears_fast",
+        "text": "Does the ice return within 2-3 days after manually defrosting?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "defrost_thermostat_bimetal",
+      "defrost_heater_element",
+      "magnetic_door_gasket"
+    ]
+  },
+  {
+    "PK": "DEVICE#air_conditioner",
+    "SK": "RULE#not_cooling_blowing_warm",
+    "deviceId": "air_conditioner",
+    "ruleId": "not_cooling_blowing_warm",
+    "symptomLabel": "AC blows room-temperature or warm air instead of cold air",
+    "questions": [
+      {
+        "id": "outdoor_unit_fan_spinning",
+        "text": "Is the outdoor condenser fan spinning and motor running when AC is turned on?",
+        "type": "boolean"
+      },
+      {
+        "id": "copper_pipes_iced_up",
+        "text": "Is there frost or ice forming on the thin copper pipes at the outdoor unit?",
+        "type": "boolean"
+      },
+      {
+        "id": "filters_clean",
+        "text": "Have the indoor unit dust mesh filters been cleaned in the past month?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "sparks",
+      "frequent_tripping"
+    ],
+    "possibleIssues": [
+      "run_capacitor_failure",
+      "refrigerant_gas_leak_refill",
+      "compressor_fault"
+    ]
+  },
+  {
+    "PK": "DEVICE#air_conditioner",
+    "SK": "RULE#water_dripping_leak",
+    "deviceId": "air_conditioner",
+    "ruleId": "water_dripping_leak",
+    "symptomLabel": "Water dripping or leaking down the wall from indoor AC unit",
+    "questions": [
+      {
+        "id": "drain_pipe_flowing_outside",
+        "text": "Is water freely flowing out of the external outdoor drain pipe?",
+        "type": "boolean"
+      },
+      {
+        "id": "filter_ice_melting",
+        "text": "Is ice visible on the indoor cooling fins behind the filter?",
+        "type": "boolean"
+      },
+      {
+        "id": "leak_stops_when_off",
+        "text": "Does the dripping stop completely when the AC is switched off?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "electric_shock"
+    ],
+    "possibleIssues": [
+      "drain_pipe_clog_cleaning",
+      "drain_tray_crack",
+      "indoor_evaporator_icing"
+    ]
+  },
+  {
+    "PK": "DEVICE#router",
+    "SK": "RULE#no_internet_led_red",
+    "deviceId": "router",
+    "ruleId": "no_internet_led_red",
+    "symptomLabel": "Router WAN / Internet LED is glowing solid red or orange",
+    "questions": [
+      {
+        "id": "cable_firmly_plugged",
+        "text": "Is the Ethernet/fiber optic cable firmly locked into the WAN/Internet port?",
+        "type": "boolean"
+      },
+      {
+        "id": "wifi_broadcast_visible",
+        "text": "Can your phone or laptop still see and connect to the local WiFi SSID name?",
+        "type": "boolean"
+      },
+      {
+        "id": "reboot_cycle_done",
+        "text": "Have you unplugged power for 30 seconds and restarted the device?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "extreme_heat"
+    ],
+    "possibleIssues": [
+      "isp_fiber_ont_link",
+      "wan_port_hardware_damage",
+      "power_adapter_voltage_drop"
+    ]
+  },
+  {
+    "PK": "DEVICE#router",
+    "SK": "RULE#frequent_disconnects",
+    "deviceId": "router",
+    "ruleId": "frequent_disconnects",
+    "symptomLabel": "WiFi connection repeatedly drops and reconnects every few minutes",
+    "questions": [
+      {
+        "id": "disconnect_all_devices",
+        "text": "Do all connected devices lose connection simultaneously?",
+        "type": "boolean"
+      },
+      {
+        "id": "router_overheating_hot",
+        "text": "Is the router casing unusually hot to the touch?",
+        "type": "boolean"
+      },
+      {
+        "id": "ethernet_wired_stable",
+        "text": "Does a wired Ethernet cable connection stay stable while WiFi drops?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "router_overheating_thermal",
+      "firmware_corruption_flash",
+      "wifi_radio_amplifier_ic"
+    ]
+  },
+  {
+    "PK": "DEVICE#printer",
+    "SK": "RULE#paper_jam",
+    "deviceId": "printer",
+    "ruleId": "paper_jam",
+    "symptomLabel": "Paper repeatedly jams or gets stuck in the feed roller mechanism",
+    "questions": [
+      {
+        "id": "paper_torn_inside",
+        "text": "Are there small scraps of torn paper stuck inside the feed tray or roller path?",
+        "type": "boolean"
+      },
+      {
+        "id": "roller_spinning_smoothly",
+        "text": "Do the rubber pickup rollers spin when trying to pull in paper?",
+        "type": "boolean"
+      },
+      {
+        "id": "loud_grinding_noise",
+        "text": "Does the printer make a loud gear grinding or screeching noise?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "pickup_roller_worn",
+      "feed_gear_assembly",
+      "optical_paper_sensor"
+    ]
+  },
+  {
+    "PK": "DEVICE#printer",
+    "SK": "RULE#faded_or_streaked_prints",
+    "deviceId": "printer",
+    "ruleId": "faded_or_streaked_prints",
+    "symptomLabel": "Printed pages have white horizontal lines, faded text, or smeared colors",
+    "questions": [
+      {
+        "id": "printhead_cleaning_run",
+        "text": "Have you run the built-in automated printhead cleaning cycle 2-3 times?",
+        "type": "boolean"
+      },
+      {
+        "id": "ink_levels_sufficient",
+        "text": "Are the physical ink tanks or toner cartridges at least 25% full?",
+        "type": "boolean"
+      },
+      {
+        "id": "printer_sat_idle_months",
+        "text": "Has the printer sat unused for more than 4 weeks?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "clogged_printhead_nozzle",
+      "drum_unit_degradation",
+      "encoder_strip_dirty"
+    ]
+  },
+  {
+    "PK": "DEVICE#mixer_blender",
+    "SK": "RULE#motor_smells_burning",
+    "deviceId": "mixer_blender",
+    "ruleId": "motor_smells_burning",
+    "symptomLabel": "Burning smell or sparks coming from the mixer grinder base",
+    "questions": [
+      {
+        "id": "sparking_visible",
+        "text": "Can you see yellow/orange sparks through the bottom ventilation vents?",
+        "type": "boolean"
+      },
+      {
+        "id": "overload_switch_tripped",
+        "text": "Did the red overload protection button at the bottom pop out?",
+        "type": "boolean"
+      },
+      {
+        "id": "blades_turn_freely",
+        "text": "Can you rotate the blender jar coupler easily with your fingers?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "sparks",
+      "smoke",
+      "electric_shock"
+    ],
+    "possibleIssues": [
+      "carbon_brush_wear",
+      "armature_motor_winding",
+      "overload_thermal_fuse"
+    ]
+  },
+  {
+    "PK": "DEVICE#mixer_blender",
+    "SK": "RULE#jar_leaking_bottom",
+    "deviceId": "mixer_blender",
+    "ruleId": "jar_leaking_bottom",
+    "symptomLabel": "Liquid leaks out from under the blender jar blade assembly into the machine",
+    "questions": [
+      {
+        "id": "black_residue_around_coupler",
+        "text": "Is there black powder or dirty grease around the jar coupler gear?",
+        "type": "boolean"
+      },
+      {
+        "id": "blade_shaft_wobbly",
+        "text": "Is the central blade shaft wobbly or loose inside the brass bush?",
+        "type": "boolean"
+      },
+      {
+        "id": "rubber_ring_missing",
+        "text": "Is the silicone/rubber O-ring washer cracked or missing?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "jar_bush_blade_assembly",
+      "coupler_teeth_stripped",
+      "silicone_seal_ring"
+    ]
+  },
+  {
+    "PK": "DEVICE#electric_kettle",
+    "SK": "RULE#not_heating_water",
+    "deviceId": "electric_kettle",
+    "ruleId": "not_heating_water",
+    "symptomLabel": "Kettle switch turns on and light glows, but water stays cold",
+    "questions": [
+      {
+        "id": "indicator_light_working",
+        "text": "Does the power indicator lamp or LED illuminate when switched on?",
+        "type": "boolean"
+      },
+      {
+        "id": "base_pins_scorched",
+        "text": "Are the copper terminal pins on the swivel base blackened or scorched?",
+        "type": "boolean"
+      },
+      {
+        "id": "switch_clicks_firmly",
+        "text": "Does the power switch click firmly and stay down?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "sparks",
+      "electric_shock"
+    ],
+    "possibleIssues": [
+      "heating_element_failure",
+      "bi_metal_thermostat_switch",
+      "swivel_base_connector"
+    ]
+  },
+  {
+    "PK": "DEVICE#gaming_console",
+    "SK": "RULE#overheating_fan_jet_noise",
+    "deviceId": "gaming_console",
+    "ruleId": "overheating_fan_jet_noise",
+    "symptomLabel": "Fan sounds like a jet engine and console shuts down with overheating warning",
+    "questions": [
+      {
+        "id": "air_vents_clogged_dust",
+        "text": "Are the exhaust vents clogged with visible dust blankets or pet hair?",
+        "type": "boolean"
+      },
+      {
+        "id": "warning_message_on_screen",
+        "text": "Does the console display a \"System is too hot\" warning before shutting off?",
+        "type": "boolean"
+      },
+      {
+        "id": "console_hot_to_touch",
+        "text": "Is the console casing very hot near the power supply / APU heatsink area?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "smoke"
+    ],
+    "possibleIssues": [
+      "liquid_metal_thermal_paste",
+      "heatsink_dust_blockage",
+      "blower_fan_bearing"
+    ]
+  },
+  {
+    "PK": "DEVICE#gaming_console",
+    "SK": "RULE#no_video_hdmi_port",
+    "deviceId": "gaming_console",
+    "ruleId": "no_video_hdmi_port",
+    "symptomLabel": "Console powers on (white/blue light) but TV displays \"No Signal\"",
+    "questions": [
+      {
+        "id": "hdmi_pins_bent",
+        "text": "Are any copper pins inside the HDMI port bent, pushed back, or missing?",
+        "type": "boolean"
+      },
+      {
+        "id": "cable_and_tv_tested",
+        "text": "Have you tested the HDMI cable and TV port with another working device?",
+        "type": "boolean"
+      },
+      {
+        "id": "safe_mode_boots",
+        "text": "Does the console display video when booting into Safe Mode / Low Resolution?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "hdmi_port_physical_damage",
+      "hdmi_encoder_retimer_ic",
+      "apu_bga_joint_fault"
+    ]
+  },
+  {
+    "PK": "DEVICE#power_bank",
+    "SK": "RULE#swollen_battery_casing",
+    "deviceId": "power_bank",
+    "ruleId": "swollen_battery_casing",
+    "symptomLabel": "Power bank casing is bulged, separated at the seams, or swollen",
+    "questions": [
+      {
+        "id": "casing_split_open",
+        "text": "Has the battery expansion caused the plastic or aluminum shell to pop open?",
+        "type": "boolean"
+      },
+      {
+        "id": "sweet_chemical_smell",
+        "text": "Do you smell a faint sweet chemical or nail-polish-like odor?",
+        "type": "boolean"
+      },
+      {
+        "id": "warm_while_idle",
+        "text": "Does the battery pack feel warm even when not plugged into anything?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "swollen_battery",
+      "burning_smell",
+      "sparks",
+      "smoke"
+    ],
+    "possibleIssues": [
+      "battery_cell_gassing_pouch",
+      "charge_controller_overvoltage"
+    ]
+  },
+  {
+    "PK": "DEVICE#power_bank",
+    "SK": "RULE#not_holding_charge",
+    "deviceId": "power_bank",
+    "ruleId": "not_holding_charge",
+    "symptomLabel": "Power bank shows 4 full LEDs but drains to 0% after charging phone for 10 mins",
+    "questions": [
+      {
+        "id": "led_drops_instantly",
+        "text": "Do the LED indicators drop from 4 bars to 1 bar almost immediately under load?",
+        "type": "boolean"
+      },
+      {
+        "id": "fast_charge_unsupported",
+        "text": "Has fast charging (PD / QC) stopped working completely?",
+        "type": "boolean"
+      },
+      {
+        "id": "bank_takes_hours_to_reach_100",
+        "text": "Does the power bank take 12+ hours to show 100% when recharging?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "internal_lithium_cell_degraded",
+      "bms_protection_circuit",
+      "micro_usb_typec_input_port"
+    ]
+  },
+  {
+    "PK": "DEVICE#smartwatch",
+    "SK": "RULE#battery_drains_under_day",
+    "deviceId": "smartwatch",
+    "ruleId": "battery_drains_under_day",
+    "symptomLabel": "Smartwatch battery drains completely within 3 to 6 hours",
+    "questions": [
+      {
+        "id": "always_on_display_tested",
+        "text": "Does it drain fast even with Always-On-Display and continuous GPS disabled?",
+        "type": "boolean"
+      },
+      {
+        "id": "watch_warm_on_wrist",
+        "text": "Does the back ceramic/glass plate feel noticeably warm against your wrist?",
+        "type": "boolean"
+      },
+      {
+        "id": "screen_popping_up",
+        "text": "Is the display glass lifting or separating from the casing due to battery swell?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "swollen_battery",
+      "burning_smell"
+    ],
+    "possibleIssues": [
+      "micro_battery_cell_replacement",
+      "pmu_short_circuit",
+      "sensor_board_drain"
+    ]
+  },
+  {
+    "PK": "DEVICE#smartwatch",
+    "SK": "RULE#not_charging_pins_corroded",
+    "deviceId": "smartwatch",
+    "ruleId": "not_charging_pins_corroded",
+    "symptomLabel": "Smartwatch does not charge or magnetic puck fails to connect",
+    "questions": [
+      {
+        "id": "pins_green_black_corrosion",
+        "text": "Are the metal charging contact points on the back blackened or discolored from sweat?",
+        "type": "boolean"
+      },
+      {
+        "id": "charger_cable_tested",
+        "text": "Have you tested with a different USB power brick (5V 1A)?",
+        "type": "boolean"
+      },
+      {
+        "id": "charging_animation_flickers",
+        "text": "Does the charging lightning bolt icon flicker on and off when moved?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "corroded_pin_cleaning",
+      "wireless_charging_coil",
+      "charging_dock_cable"
+    ]
+  },
+  {
+    "PK": "DEVICE#tablet",
+    "SK": "RULE#digitizer_touch_ghosting",
+    "deviceId": "tablet",
+    "ruleId": "digitizer_touch_ghosting",
+    "symptomLabel": "Tablet touchscreen registering phantom touches or dead zones",
+    "questions": [
+      {
+        "id": "screen_protector_removed",
+        "text": "Does the touch ghosting persist after removing any tempered glass protector?",
+        "type": "boolean"
+      },
+      {
+        "id": "happens_only_while_charging",
+        "text": "Does the phantom touching happen only when connected to a charger?",
+        "type": "boolean"
+      },
+      {
+        "id": "bent_aluminum_casing",
+        "text": "Is the tablet chassis slightly bent or warped when looking down the edge?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "digitizer_touch_layer",
+      "noisy_charger_grounding",
+      "display_flex_connector"
+    ]
+  },
+  {
+    "PK": "DEVICE#tablet",
+    "SK": "RULE#charging_port_damaged",
+    "deviceId": "tablet",
+    "ruleId": "charging_port_damaged",
+    "symptomLabel": "USB-C / Lightning port loose, tablet only charges at a specific angle",
+    "questions": [
+      {
+        "id": "cable_wiggles_loose",
+        "text": "Does the charging cable feel loose and fall out easily?",
+        "type": "boolean"
+      },
+      {
+        "id": "lint_packed_inside",
+        "text": "Can you see packed pocket lint or debris deep inside the port?",
+        "type": "boolean"
+      },
+      {
+        "id": "moisture_detected_alert",
+        "text": "Does the tablet show a persistent \"Liquid/debris in port\" warning?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "hot_charging_port",
+      "sparks"
+    ],
+    "possibleIssues": [
+      "port_lint_cleaning",
+      "usb_c_daughterboard",
+      "mainboard_port_microsoldering"
+    ]
+  },
+  {
+    "PK": "DEVICE#microwave",
+    "SK": "RULE#not_heating_food",
+    "deviceId": "microwave",
+    "ruleId": "not_heating_food",
+    "symptomLabel": "Microwave runs, timer counts down and turntable spins, but food stays ice cold",
+    "questions": [
+      {
+        "id": "loud_buzz_hum",
+        "text": "Do you hear a loud strained buzzing or humming sound when cooking starts?",
+        "type": "boolean"
+      },
+      {
+        "id": "burning_insulation_smell",
+        "text": "Is there a burning electrical or ozone smell coming from the unit?",
+        "type": "boolean"
+      },
+      {
+        "id": "trips_kitchen_fuse",
+        "text": "Does the microwave trip the home circuit breaker after running 5 seconds?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "sparks",
+      "smoke",
+      "electric_shock"
+    ],
+    "possibleIssues": [
+      "magnetron_tube_failure",
+      "high_voltage_diode",
+      "high_voltage_capacitor"
+    ]
+  },
+  {
+    "PK": "DEVICE#microwave",
+    "SK": "RULE#sparks_inside_cavity",
+    "deviceId": "microwave",
+    "ruleId": "sparks_inside_cavity",
+    "symptomLabel": "Sparks, fire flashes, or crackling noise inside the cooking chamber",
+    "questions": [
+      {
+        "id": "waveguide_cover_burnt",
+        "text": "Is the cardboard/mica waveguide cover on the right interior wall scorched or greasy?",
+        "type": "boolean"
+      },
+      {
+        "id": "metal_utensil_removed",
+        "text": "Have you verified that no metallic foil, gold-rim plates, or cutlery are inside?",
+        "type": "boolean"
+      },
+      {
+        "id": "enamel_paint_chipped",
+        "text": "Is there bare rusted metal or chipped paint exposed on the inner walls?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "sparks",
+      "burning_smell",
+      "smoke"
+    ],
+    "possibleIssues": [
+      "mica_waveguide_cover",
+      "cavity_cavitation_arcing",
+      "stirrer_blade_fan"
+    ]
+  },
+  {
+    "PK": "DEVICE#camera",
+    "SK": "RULE#lens_error_jammed_extended",
+    "deviceId": "camera",
+    "ruleId": "lens_error_jammed_extended",
+    "symptomLabel": "Lens stuck halfway, zoom motor clicks and displays \"Lens Error\"",
+    "questions": [
+      {
+        "id": "sand_or_grit_in_barrel",
+        "text": "Did the camera recently encounter sand, fine dust, or a beach environment?",
+        "type": "boolean"
+      },
+      {
+        "id": "camera_dropped",
+        "text": "Was the camera dropped while the zoom lens barrel was extended?",
+        "type": "boolean"
+      },
+      {
+        "id": "motor_grinding_clicking",
+        "text": "Can you hear a faint electric motor whirring or clicking trying to retract?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "zoom_lens_barrel_gear",
+      "aperture_shutter_flex_ribbon",
+      "autofocus_drive_motor"
+    ]
+  },
+  {
+    "PK": "DEVICE#speaker",
+    "SK": "RULE#distorted_bass_blown_cone",
+    "deviceId": "speaker",
+    "ruleId": "distorted_bass_blown_cone",
+    "symptomLabel": "Speaker rattles, buzzes, or sounds muffled on bass notes",
+    "questions": [
+      {
+        "id": "distortion_at_low_volume",
+        "text": "Does the rattling/distortion occur even at 30% volume?",
+        "type": "boolean"
+      },
+      {
+        "id": "passive_radiator_torn",
+        "text": "Is the rubber surround ring on the side bass radiators torn or punctured?",
+        "type": "boolean"
+      },
+      {
+        "id": "loose_grille_screws",
+        "text": "Does pressing gently on the outer plastic/metal grille stop the vibration rattle?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [],
+    "possibleIssues": [
+      "speaker_driver_cone_tear",
+      "passive_radiator_membrane",
+      "dsp_amplifier_board"
+    ]
+  },
+  {
+    "PK": "DEVICE#desktop_pc",
+    "SK": "RULE#no_display_beep_codes",
+    "deviceId": "desktop_pc",
+    "ruleId": "no_display_beep_codes",
+    "symptomLabel": "PC powers on, fans and LEDs spin, but monitor screen stays black with no signal",
+    "questions": [
+      {
+        "id": "motherboard_beep_or_debug_led",
+        "text": "Does the motherboard emit beep codes or show a red/orange debug LED (CPU/DRAM/VGA)?",
+        "type": "boolean"
+      },
+      {
+        "id": "monitor_cable_in_gpu",
+        "text": "Is the HDMI/DisplayPort cable plugged into the dedicated graphics card rather than the motherboard?",
+        "type": "boolean"
+      },
+      {
+        "id": "ram_reseated",
+        "text": "Have you attempted removing and firmly reseating the RAM sticks into their slots?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "sparks",
+      "smoke"
+    ],
+    "possibleIssues": [
+      "ram_contact_oxidation",
+      "gpu_pcie_seated_defect",
+      "cmos_bios_corruption"
+    ]
+  },
+  {
+    "PK": "DEVICE#vacuum_cleaner",
+    "SK": "RULE#loss_of_suction",
+    "deviceId": "vacuum_cleaner",
+    "ruleId": "loss_of_suction",
+    "symptomLabel": "Motor runs loudly but vacuum cleaner has little to no suction power",
+    "questions": [
+      {
+        "id": "filters_washed_dry",
+        "text": "Have the HEPA and foam pre-motor filters been washed and allowed 24h to dry?",
+        "type": "boolean"
+      },
+      {
+        "id": "hose_wand_blockage",
+        "text": "Can you see clear light through the detachable flexible hose and wand tube?",
+        "type": "boolean"
+      },
+      {
+        "id": "dustbin_overfilled",
+        "text": "Is the cyclone cone or dustbin gasket sealed properly without air leaks?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell"
+    ],
+    "possibleIssues": [
+      "hepa_filter_choked",
+      "flexible_hose_tear_blockage",
+      "suction_motor_cyclone_seal"
+    ]
+  },
+  {
+    "PK": "DEVICE#water_purifier",
+    "SK": "RULE#slow_water_flow",
+    "deviceId": "water_purifier",
+    "ruleId": "slow_water_flow",
+    "symptomLabel": "Filtered pure water trickles out as a thin drip or tank takes 4+ hours to fill",
+    "questions": [
+      {
+        "id": "tap_water_supply_normal",
+        "text": "Is your home main inlet water pressure adequate?",
+        "type": "boolean"
+      },
+      {
+        "id": "reject_water_flowing_fast",
+        "text": "Is reject/waste water flowing out heavily through the blue drain pipe?",
+        "type": "boolean"
+      },
+      {
+        "id": "filters_older_than_12_months",
+        "text": "Has it been over 9 to 12 months since sediment and carbon pre-filters were replaced?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "electric_shock"
+    ],
+    "possibleIssues": [
+      "sediment_carbon_filter_choke",
+      "ro_membrane_scaling",
+      "booster_pump_low_pressure"
+    ]
+  },
+  {
+    "PK": "DEVICE#other_device",
+    "SK": "RULE#wont_turn_on",
+    "deviceId": "other_device",
+    "ruleId": "wont_turn_on",
+    "symptomLabel": "Device will not power on, no LED indicator lights or signs of life",
+    "questions": [
+      {
+        "id": "power_outlet_tested",
+        "text": "Have you tested the wall electrical socket with a lamp or known-working appliance?",
+        "type": "boolean"
+      },
+      {
+        "id": "power_cable_damaged",
+        "text": "Is the power adapter cord, plug, or wire frayed, kinked, or chewed?",
+        "type": "boolean"
+      },
+      {
+        "id": "reset_button_held",
+        "text": "Does holding the power or pinhole reset button for 15 seconds trigger any reaction?",
+        "type": "boolean"
+      }
+    ],
+    "dangerousFlags": [
+      "burning_smell",
+      "sparks",
+      "smoke",
+      "electric_shock"
+    ],
+    "possibleIssues": [
+      "power_supply_cable_adaptor",
+      "internal_fuse_blown",
+      "main_control_circuit"
+    ]
+  }
+]
