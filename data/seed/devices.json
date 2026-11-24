@@ -1,0 +1,333 @@
+[
+  {
+    "PK": "DEVICE#laptop",
+    "SK": "METADATA",
+    "deviceId": "laptop",
+    "name": "Laptop",
+    "icon": "laptop",
+    "commonSymptoms": [
+      "not_charging",
+      "wont_turn_on",
+      "overheating",
+      "screen_issue",
+      "slow_performance",
+      "wifi_issues",
+      "trackpad_issues"
+    ]
+  },
+  {
+    "PK": "DEVICE#smartphone",
+    "SK": "METADATA",
+    "deviceId": "smartphone",
+    "name": "Smartphone",
+    "icon": "smartphone",
+    "commonSymptoms": [
+      "screen_cracked",
+      "battery_drain",
+      "not_charging",
+      "water_damage",
+      "camera_not_working",
+      "buttons_unresponsive",
+      "network_issues"
+    ]
+  },
+  {
+    "PK": "DEVICE#headphones",
+    "SK": "METADATA",
+    "deviceId": "headphones",
+    "name": "Headphones / Earphones",
+    "icon": "headphones",
+    "commonSymptoms": [
+      "one_side_silent",
+      "bluetooth_disconnect",
+      "distorted_sound",
+      "broken_hinge_cable",
+      "case_not_charging",
+      "mic_not_working"
+    ]
+  },
+  {
+    "PK": "DEVICE#television",
+    "SK": "METADATA",
+    "deviceId": "television",
+    "name": "Television",
+    "icon": "television",
+    "commonSymptoms": [
+      "screen_black_no_display",
+      "no_sound",
+      "lines_on_screen",
+      "hdmi_not_working",
+      "wont_turn_on",
+      "wifi_smart_tv_issue"
+    ]
+  },
+  {
+    "PK": "DEVICE#washing_machine",
+    "SK": "METADATA",
+    "deviceId": "washing_machine",
+    "name": "Washing Machine",
+    "icon": "washing_machine",
+    "commonSymptoms": [
+      "not_spinning",
+      "leaking_water",
+      "not_draining",
+      "excessive_vibration",
+      "wont_start_no_power",
+      "abnormal_noise"
+    ]
+  },
+  {
+    "PK": "DEVICE#refrigerator",
+    "SK": "METADATA",
+    "deviceId": "refrigerator",
+    "name": "Refrigerator",
+    "icon": "refrigerator",
+    "commonSymptoms": [
+      "not_cooling",
+      "excessive_frost_ice",
+      "water_leakage",
+      "compressor_clicking_noise",
+      "foul_odor_fan_issue",
+      "door_seal_loose"
+    ]
+  },
+  {
+    "PK": "DEVICE#air_conditioner",
+    "SK": "METADATA",
+    "deviceId": "air_conditioner",
+    "name": "Air Conditioner",
+    "icon": "air_conditioner",
+    "commonSymptoms": [
+      "not_cooling_blowing_warm",
+      "water_dripping_leak",
+      "foul_smell_or_smoke",
+      "remote_unresponsive_pcb",
+      "loud_compressor_rattle",
+      "frequent_tripping"
+    ]
+  },
+  {
+    "PK": "DEVICE#router",
+    "SK": "METADATA",
+    "deviceId": "router",
+    "name": "Router / WiFi",
+    "icon": "router",
+    "commonSymptoms": [
+      "no_internet_led_red",
+      "frequent_disconnects",
+      "slow_wifi_speeds",
+      "cannot_access_admin_page",
+      "overheating_restart",
+      "ethernet_port_dead"
+    ]
+  },
+  {
+    "PK": "DEVICE#printer",
+    "SK": "METADATA",
+    "deviceId": "printer",
+    "name": "Printer",
+    "icon": "printer",
+    "commonSymptoms": [
+      "paper_jam",
+      "faded_or_streaked_prints",
+      "printer_offline",
+      "carriage_jam_grinding",
+      "ink_cartridge_unrecognized",
+      "wifi_connection_error"
+    ]
+  },
+  {
+    "PK": "DEVICE#mixer_blender",
+    "SK": "METADATA",
+    "deviceId": "mixer_blender",
+    "name": "Mixer / Blender",
+    "icon": "mixer_blender",
+    "commonSymptoms": [
+      "motor_smells_burning",
+      "blades_not_spinning_jammed",
+      "jar_leaking_bottom",
+      "sparks_or_excessive_noise",
+      "speed_knob_broken",
+      "trips_overload_button"
+    ]
+  },
+  {
+    "PK": "DEVICE#electric_kettle",
+    "SK": "METADATA",
+    "deviceId": "electric_kettle",
+    "name": "Electric Kettle",
+    "icon": "electric_kettle",
+    "commonSymptoms": [
+      "not_heating_water",
+      "auto_shutoff_not_working",
+      "base_connection_loose",
+      "water_leaking_seals",
+      "trips_circuit_breaker",
+      "indicator_light_dead"
+    ]
+  },
+  {
+    "PK": "DEVICE#gaming_console",
+    "SK": "METADATA",
+    "deviceId": "gaming_console",
+    "name": "Gaming Console",
+    "icon": "gaming_console",
+    "commonSymptoms": [
+      "overheating_fan_jet_noise",
+      "no_video_hdmi_port",
+      "disc_drive_not_reading",
+      "random_shutdown_error_code",
+      "controller_sync_failure",
+      "power_supply_failure"
+    ]
+  },
+  {
+    "PK": "DEVICE#power_bank",
+    "SK": "METADATA",
+    "deviceId": "power_bank",
+    "name": "Power Bank",
+    "icon": "power_bank",
+    "commonSymptoms": [
+      "swollen_battery_casing",
+      "not_holding_charge",
+      "usb_ports_loose_dead",
+      "fast_charging_stopped",
+      "wont_charge_itself",
+      "gets_extremely_hot"
+    ]
+  },
+  {
+    "PK": "DEVICE#smartwatch",
+    "SK": "METADATA",
+    "deviceId": "smartwatch",
+    "name": "Smartwatch",
+    "icon": "smartwatch",
+    "commonSymptoms": [
+      "touchscreen_unresponsive",
+      "battery_drains_under_day",
+      "sensor_not_tracking_pulse",
+      "not_charging_pins_corroded",
+      "screen_cracked",
+      "bluetooth_pairing_loop"
+    ]
+  },
+  {
+    "PK": "DEVICE#tablet",
+    "SK": "METADATA",
+    "deviceId": "tablet",
+    "name": "Tablet",
+    "icon": "tablet",
+    "commonSymptoms": [
+      "digitizer_touch_ghosting",
+      "charging_port_damaged",
+      "battery_rapid_drop",
+      "screen_glass_shattered",
+      "bootloop_logo_stuck",
+      "audio_crackling"
+    ]
+  },
+  {
+    "PK": "DEVICE#microwave",
+    "SK": "METADATA",
+    "deviceId": "microwave",
+    "name": "Microwave Oven",
+    "icon": "microwave",
+    "commonSymptoms": [
+      "turntable_not_turning",
+      "sparks_inside_cavity",
+      "keypad_touch_unresponsive",
+      "not_heating_food",
+      "loud_buzzing_hum",
+      "door_latch_broken"
+    ]
+  },
+  {
+    "PK": "DEVICE#camera",
+    "SK": "METADATA",
+    "deviceId": "camera",
+    "name": "Digital Camera",
+    "icon": "camera",
+    "commonSymptoms": [
+      "lens_error_jammed_extended",
+      "sensor_dust_spots",
+      "shutter_button_stuck",
+      "sd_card_write_error",
+      "lcd_screen_blank",
+      "battery_depletes_instantly"
+    ]
+  },
+  {
+    "PK": "DEVICE#speaker",
+    "SK": "METADATA",
+    "deviceId": "speaker",
+    "name": "Bluetooth Speaker",
+    "icon": "speaker",
+    "commonSymptoms": [
+      "distorted_bass_blown_cone",
+      "bluetooth_stutters",
+      "aux_port_crackling",
+      "wont_charge_or_power_on",
+      "low_max_volume",
+      "auto_shutoff_after_minutes"
+    ]
+  },
+  {
+    "PK": "DEVICE#desktop_pc",
+    "SK": "METADATA",
+    "deviceId": "desktop_pc",
+    "name": "Desktop PC",
+    "icon": "desktop_pc",
+    "commonSymptoms": [
+      "no_display_beep_codes",
+      "bsod_random_crashes",
+      "power_supply_no_led",
+      "gpu_artifacting_lines",
+      "heavy_fan_throttling",
+      "front_io_dead"
+    ]
+  },
+  {
+    "PK": "DEVICE#vacuum_cleaner",
+    "SK": "METADATA",
+    "deviceId": "vacuum_cleaner",
+    "name": "Vacuum Cleaner",
+    "icon": "vacuum_cleaner",
+    "commonSymptoms": [
+      "loss_of_suction",
+      "roller_brush_stalled",
+      "battery_dies_5_mins",
+      "motor_whining_screech",
+      "filter_blockage_sensor",
+      "burning_belt_smell"
+    ]
+  },
+  {
+    "PK": "DEVICE#water_purifier",
+    "SK": "METADATA",
+    "deviceId": "water_purifier",
+    "name": "Water Purifier (RO)",
+    "icon": "water_purifier",
+    "commonSymptoms": [
+      "slow_water_flow",
+      "bad_taste_odor",
+      "continuous_drain_water",
+      "membrane_choked_high_tds",
+      "pump_vibrating_loudly",
+      "auto_shutoff_float_failed"
+    ]
+  },
+  {
+    "PK": "DEVICE#other_device",
+    "SK": "METADATA",
+    "deviceId": "other_device",
+    "name": "Other Device",
+    "icon": "other_device",
+    "commonSymptoms": [
+      "wont_turn_on",
+      "physical_damage",
+      "intermittent_operation",
+      "unusual_noise_or_smell",
+      "port_connector_loose"
+    ]
+  }
+]
