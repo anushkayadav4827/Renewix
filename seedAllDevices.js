@@ -1991,7 +1991,7 @@ allDevices.filter(d => !['smartphone', 'laptop', 'headphones'].includes(d.device
       city: city,
       rating: +(4.4 + Math.random() * 0.5).toFixed(1),
       categories: [device.deviceId],
-      contact: `support-${device.deviceId}-${city.toLowerCase()}@demo.back2life.local`
+      contact: `support-${device.deviceId}-${city.toLowerCase()}@demo.renewix.local`
     });
   });
 });
@@ -2037,7 +2037,7 @@ async function main() {
   console.log(`Updated data/seed/providers.json with ${mergedProviders.length} providers.`);
 
   // Now seed AWS DynamoDB Table
-  const tableName = 'Back2LifeTable-dev';
+  const tableName = 'RenewixTable-dev';
   if (process.env.AWS_ACCESS_KEY_ID && process.env.AWS_SECRET_ACCESS_KEY) {
     console.log(`Seeding AWS DynamoDB Table "${tableName}" in ${process.env.AWS_REGION}...`);
     const client = new DynamoDBClient({

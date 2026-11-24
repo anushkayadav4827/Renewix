@@ -68,7 +68,7 @@ export default function AdminDashboard() {
           <div className="flex items-center gap-2">
             <span className="text-xs font-bold px-3 py-1.5 rounded-full bg-[#D9E5C4] text-[#103D29] flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-[#10B981] animate-pulse" />
-              <span>Back2LifeTable-dev · Active</span>
+              <span>RenewixTable-dev · Active</span>
             </span>
           </div>
         </div>
